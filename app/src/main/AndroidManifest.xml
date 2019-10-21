@@ -11,7 +11,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".login"></activity>
         <activity android:name=".fb_login" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
